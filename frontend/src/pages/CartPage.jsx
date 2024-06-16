@@ -40,7 +40,7 @@ const CartPage = () => {
             </Link>
           </Alert>
         ) : (
-          cartItems.map((item) => (
+          cartItems?.map((item) => (
             <div className="flex items-center mt-4 gap-2" key={item._id}>
               <div className="w-[15%] text-center">
                 <img
@@ -97,7 +97,7 @@ const CartPage = () => {
           <p className="py-3 mb-4 border-b border-gray-700">
             $
             {cartItems
-              .reduce(
+              ?.reduce(
                 (acc, item) =>
                   item.salePrice !== 0
                     ? acc + item.salePrice * item.qty

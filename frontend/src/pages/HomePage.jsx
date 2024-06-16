@@ -13,11 +13,11 @@ const HomePage = () => {
     <>
       <Meta />
       <div>
-        <img src="/images/cover.PNG" alt="cover image" className="w-full" />
+        <img src="/cover.PNG" alt="cover image" className="w-full" />
       </div>
       <div className="w-[70%] mx-auto flex flex-col md:flex-row my-10 gap-4">
         <div className="w-[40%]">
-          <img src="/images/record.PNG" alt="record image" className="w-full"/>
+          <img src="/record.PNG" alt="record image" className="w-full"/>
         </div>
         <div className="w-[60%]">
           <ul className="flex text-center border-b border-black">
